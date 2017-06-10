@@ -14,10 +14,10 @@ class RecipeServiceProvider extends ServiceProvider
     public function boot()
     {
         // Views
-        $this->loadViewsFrom(__DIR__.'/../../../resources/views/recipes/', 'recipes');
+        $this->loadViewsFrom(__DIR__.'/../../resources/views/recipes/', 'recipes');
 
         // Migrations
-        $this->loadMigrationsFrom(__DIR__.'/../../../database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
     }
 
     /**
