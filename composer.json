@@ -1,7 +1,7 @@
 {
     "name": "boxgrater/recipes",
-    "description": "BoxGrater Recipes Component.",
-    "keywords": ["component", "boxgrater", "recipes"],
+    "description": "BoxGrater Recipe Component",
+    "keywords": ["component", "boxgrater", "recipe"],
     "license": "MIT",
     "type": "package",
     "require": {
